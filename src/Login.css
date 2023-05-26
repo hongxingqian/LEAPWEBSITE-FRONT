@@ -8,7 +8,7 @@
   }
   
   body {
-    background: linear-gradient(to right, #001f3f, #f9e79f);
+    background: linear-gradient(to right, #072C49, #FFECB0);
 }
   .title {
     color: black;
@@ -65,6 +65,12 @@
   
     padding-left: 5000px;
   
+}
+.loginButton {
+  font-family: PoppinsSemiBold;
+  background-color: #072C49;
+  color: white;
+  height: 40px;
 }
 
 @font-face {

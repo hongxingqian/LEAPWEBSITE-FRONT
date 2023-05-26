@@ -1,0 +1,95 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #072C49, #FFECB0);
+  }
+  
+  body {
+    background: linear-gradient(to right, #001f3f, #f9e79f);
+}
+  .title {
+    color: black;
+    font-size: 140px;
+    margin-bottom: 10rem;
+    margin-top: -400px;
+  }
+  .subtitle {
+    color: black;
+    font-size: 20px;
+    text-align: 140px;
+    margin-right: -300px;
+    margin-bottom: 1rem;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    padding: 0.5rem;
+    background-color: #1a237e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .padded-top-left {
+
+    padding-top: 50px;
+  
+    padding-left: 5000px;
+  
+}
+
+@font-face {
+    font-family: PoppinsSemiBold ;
+    src: url(./poppins-font/Poppins-SemiBold.ttf);
+}
+
+.PoppinsSemiBold {
+    font-family: PoppinsSemiBold ;
+}
+
+@font-face {
+  font-family: PoppinsLight ;
+  src: url(./poppins-font/Poppins-Light.ttf);
+}
+
+.PoppinsLight {
+  font-family: PoppinsLight ;
+}
+
+@font-face {
+  font-family: PoppinsExtraLight ;
+  src: url(./poppins-font/Poppins-ExtraLight.ttf);
+}
+
+.PoppinsExtraLight {
+  font-family: PoppinsExtraLight ;
+}

@@ -17,11 +17,11 @@ const Login = () => {
     };
 
     return (
-        <Container style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100vh' }}>
+        <Container style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100vh', position: 'relative' }}>
             <div style={{ marginTop: '10%' }}>
                 <h1 style={{ fontFamily: 'PoppinsSemiBold', color: 'white', textAlign: 'center', fontSize: '140px' }}>WELCOME</h1>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '5vh', marginLeft: 'auto', marginRight: '10%' }}>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', position: 'absolute', right: '10%', top: '60vh', marginright: 20 }}>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group>
                         <Form.Label>Username</Form.Label>
